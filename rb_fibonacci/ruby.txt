@@ -1,0 +1,90 @@
+var = variable (int , str)
+cnd = condicion (a ! < = > b)
+const = (int , str)
+num = numero
+cad = cadena = "jesus28"
+
+-write-
+print 28
+print "jesus"
+print var
+puts (28)
+puts ("jesus")
+puts var.to_s
+puts var.to_i
+puts var.to_f
+
+-read-
+var=gets.chomp
+
+-comentarios-
+#jesus
+
+-until-
+until cnd
+...
+end
+
+-while-
+while cnd
+...
+end
+
+-case-
+case var
+when 28
+...
+when "jesus"
+...
+when var_1
+...
+else
+...
+end
+
+-if-
+if cnd
+...
+end
+
+-rangos-
+var=20..28 #declaracion
+var=jesus...jesuz #aqui no se incluye el ultimo digito
+
+var.to_a #convierte el rango en array
+var.min #primer elemento del rango
+var.max #ultimo elemento del rango
+
+-hashs-
+var={"var_1"=>28,"var_2"=>"jesus"} #declaracion
+
+var["cad"] #para invocar por nombre
+var.length #tamaño del hash
+
+-arrays-
+var=[28,"jesus"] #declaracion
+var[num].to_s #para invocar por numero
+var.length.to_s #tamaño del array
+var[1,0] = "qk" #var: "qk", 28, "jesus"
+
+var.unshift(const) #inserta un elemento en el array por el principo
+var.push(const) #inserta un elemento en el array por el final
+var.shift #elimina el primer elemento del array
+var.pop #elimina el ultimo elemento del array
+var.concat([1,2,3]) #concatena dos arrays
+
+-pausa-
+gets
+
+-cadenas-
+cad.length #tamaño de la cadena: 5
+cad.upcase #mayuscula: "JESUS28"
+cad.downcase #minuscula: "jesus28"
+cad.capitalize #primera en mayuscula: "Jesus28"
+cad[1,3] #sub cadena: "esu"
+cad.reverse #cadena: "82susej"
+
+-conversiones-
+var=cad.to_i #var: 0 (si tuviera los numero delantes fuera 28)
+var=num.to_s #de integer a string
+var=cad.to_f #de string a float
