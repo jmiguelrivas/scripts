@@ -435,7 +435,7 @@ const islandSection = {
     // islandSection.farm()
     islandSection.parking();
     islandSection.clerk();
-    islandSection.merchant();
+    // islandSection.merchant();
     h.tap(610, 2180, "salir de la isla", 1);
   },
   // farm() {
